@@ -26,3 +26,4 @@ export function singOfZodiac(zodiacs, birthday) {
     return result;
 }
 
+
