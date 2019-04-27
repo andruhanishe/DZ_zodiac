@@ -1,5 +1,4 @@
 import {Zodiac, Date, singOfZodiac} from "./lib.js";
-import {normalize} from "./lib.js";
 
 const birthday = new Date(27, 5);
 

@@ -14,7 +14,7 @@ export function singOfZodiac(zodiacs, birthday) {
     let result;
     for (const zodiac of zodiacs) {
         if (zodiac.numberOfMonth === birthday.month){
-            if (birthday.day > 22) {
+            if (birthday.day > 20) {
                 const next = zodiacs [zodiac.numberOfMonth];
                 result = next.nameOfZodiac;
             }
